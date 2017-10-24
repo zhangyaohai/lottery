@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: lottery
+  profiles:
+    active: dev
+
+server:
+  tomcat:
+  port: 8888
+  basedir: /data/server/log
+  accesslog:
+    directory: logs
+    enabled: true
+    pattern: common
